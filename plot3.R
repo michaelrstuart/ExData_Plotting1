@@ -1,8 +1,6 @@
 
 setwd("/Users/michael/Documents/r/coursera/ExploratoryDataAnalysis/ExData_Plotting1")
 
-par(mfrow = c(1,1))
-
 power <- read.table("/Users/michael/Documents/r/coursera/ExploratoryDataAnalysis/household_power_consumption.txt", 
 	header = TRUE, sep = ";", na.strings = "?", 
 	colClasses = c("character", "character", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric"))
